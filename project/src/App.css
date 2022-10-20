@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Grold-Regular";
+}
+@font-face {
+  font-family: "Grold-Regular";
+  src: url(./assets/Fonts/Grold-Regular.ttf);
+}
+.App {
+  background-color: grey;
+  padding: 80px;
+}
+.nav a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: white;
+}
+#button {
+  border: 1px solid white;
+  border-radius: 1px;
+  color: white;
+  border-radius: 9px;
+  font-size: 25px;
+  width: 20%;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: right;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 2;
+  background-color: slategray;
+  padding: 16px;
+}
+.sidebar_menu {
+  display: flex;
+  justify-content: space-around;
+}
+.product_section {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product_card {
+  padding: 70px;
+  text-align: center;
+  background-color: linen;
+  width: 320px;
+  height: 200px;
+}
+.item {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.intern_section {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.switchtheme button {
+  float: right;
+  font-size: 22px;
+}
+.newtheme button {
+  float: right;
+  font-size: 22px;
+}
+.intern_card {
+  padding: 70px;
+  text-align: center;
+  background-color: lightblue;
+  width: 320px;
+  height: 200px;
+}
+.follow_section {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.follow_card {
+  padding: 70px;
+  text-align: center;
+  background-color: lightpink;
+  width: 320px;
+  height: 200px;
+}
+.app {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Appp {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  height: 40vh;
+  width: 40vh;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lightsteelblue;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.button_change {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.hamburger {
+  display: none;
+}
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+}
+.counter_output {
+  font-size: 20px;
+  color: black;
+}
+.btn_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.control_btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media (max-width: 480px) {
+  .App {
+    display: block;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .nav a {
+    display: none;
+  }
+}
