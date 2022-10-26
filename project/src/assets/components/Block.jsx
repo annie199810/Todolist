@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { useState } from "react";
 const TodoList = ({}) => {
   const [list, setList] = useState([
@@ -76,3 +76,4 @@ const TodoList = ({}) => {
   );
 };
 export default TodoList;
+*/
