@@ -11,7 +11,6 @@ import Instagram from "./assets/components/followers";
 import Paragraph from "./assets/components/head";
 import Coloring from "./assets/components/theme";
 import Appp from "./assets/components/todo";
-import Displaying from "./assets/components/local";
 import Notifying from "./assets/components/local";
 
 function App() {
